@@ -2,7 +2,7 @@
 export const MovieDetail = () => {
   return (
     <main>
-      MovieDetail
+      MovieDetail. why it is happning
     </main>
   )
 }
