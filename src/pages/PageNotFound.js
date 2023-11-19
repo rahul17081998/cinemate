@@ -4,10 +4,9 @@ import { Button } from "../components";
 import { useTitle } from "../hooks/useTitle";
 
 export const PageNotFound = () => {
-  // eslint-disable-next-line
-  const pageTitle = useTitle(`Page Not Found`);
+ 
+  useTitle(`Page Not Found`);
   
-
   return (
     <main>
       <section className="flex flex-col justify-center px-2">
