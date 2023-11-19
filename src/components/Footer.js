@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { useRef, useEffect } from "react";
 export const Footer = () => {
   
 
@@ -12,16 +11,16 @@ export const Footer = () => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
-            <a href="https://www.instagram.com/inspired_by_backbanchers/" target="_blank"  className="hover:underline me-4 md:me-6">Instagram</a>
+            <a href="https://www.instagram.com/inspired_by_backbanchers/" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">Instagram</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rahul-kumar-900b3217b/" target="_blank"  className="hover:underline me-4 md:me-6">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/rahul-kumar-900b3217b/" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">LinkedIn</a>
           </li>
           <li>
-            <a href="https://bitbucket.org/rk-grad-course/workspace/overview/" target="_blank"  className="hover:underline me-4 md:me-6">Bitbucket</a>
+            <a href="https://bitbucket.org/rk-grad-course/workspace/overview/" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">Bitbucket</a>
           </li>
           <li>
-            <a href="#" target="_blank" className="hover:underline">Github</a>
+            <a href="https://github.com/rahul17081998" target="_blank" rel="noreferrer" className="hover:underline">Github</a>
           </li>
         </ul>
       </div>

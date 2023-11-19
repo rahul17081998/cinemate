@@ -15,11 +15,11 @@ export const MovieDetail = () => {
       const response = await fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_key=9d06d23d63ce5bd4f5f4b9407b928fd3`);
       const json = await response.json(); // convert that responce into json
       setMovie(json);
-      console.log(json);
     }
     fetchMovie();
   }, [params.id])
 
+  // eslint-disable-next-line
   const pageTitle = useTitle(movie.title);
   
 
